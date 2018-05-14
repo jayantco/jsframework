@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<app-config>
+	<request-info forward="switch.do?page=home.do&amp;module=credit">
+		<path>home</path>		
+	</request-info>
+	<request-info>
+		<path>switch</path>
+		<action-class>com.js.action.ModuleSwitching</action-class>
+	</request-info>
+	</app-config>

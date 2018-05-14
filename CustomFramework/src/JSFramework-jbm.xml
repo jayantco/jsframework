@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jbm-mappings>
+	<jbm-mapping>
+		<jb-class class="com.lara.LoginBean" table="Login">
+			<id type="native" columnname="ID"/>
+			<class-parameter columnname="username">username</class-parameter>
+			<class-parameter columnname="password">password</class-parameter>
+			<class-parameter columnname="education">education</class-parameter>
+		</jb-class>
+	</jbm-mapping>
+</jbm-mappings>

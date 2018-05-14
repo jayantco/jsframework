@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<js-mappings>
+	<js-mapping>
+		<datasource>
+			<dbdriverclass>oracle.jdbc.driver.OracleDriver</dbdriverclass>
+			<dburl>jdbc:oracle:thin:@localhost:1521:XE</dburl>
+			<dbusername>system</dbusername>
+			<dbpassword>great123</dbpassword>
+			<dbpoolsize>10</dbpoolsize>
+		</datasource>
+		<dbconnection-type>oracle</dbconnection-type>
+		<table-creation>create</table-creation>
+		<show-sql>true</show-sql>
+		<jbm-file>JSFramework-jbm.xml</jbm-file>
+	</js-mapping>
+</js-mappings>

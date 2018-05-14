@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<js-mappings>
+	<js-mapping>
+		<datasource>
+			<dbdriverclass>com.mysql.jdbc.Driver</dbdriverclass>
+			<dburl>jdbc:mysql://localhost:3306/test</dburl>
+			<dbusername>root</dbusername>
+			<dbpassword></dbpassword>
+			<dbpoolsize>10</dbpoolsize>
+		</datasource>
+		<dbconnection-type>mysql</dbconnection-type>
+		<table-creation>create</table-creation>
+		<show-sql>true</show-sql>
+		<jbm-file>JSFramework-jbm.xml</jbm-file>
+	</js-mapping>
+</js-mappings>

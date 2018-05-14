@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<app-config>
+	<request-info>
+		<path>switch</path>
+		<action-class>com.js.action.ModuleSwitching</action-class>
+	</request-info>
+	<request-info forward="switch.do?page=home.do&amp;module=">
+		<path>home</path>		
+	</request-info>
+</app-config>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_ID" version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+	<display-name>CustomFramework</display-name>
+	
+	<servlet>
+		<description>
+		</description>
+		<display-name>ActionController</display-name>
+		<servlet-name>ActionController</servlet-name>
+		<servlet-class>com.js.controller.ActionController</servlet-class>
+		<init-param>
+			<param-name>fconfig</param-name>
+			<param-value>ModuleConfig.xml</param-value>
+		</init-param>
+		<init-param>
+			<param-name>dataconfig</param-name>
+			<param-value>DataConfig.xml</param-value>
+		</init-param>
+		<init-param>
+			<param-name>fconfig/credit</param-name>
+			<param-value>credit.xml</param-value>
+		</init-param>
+		<init-param>
+			<param-name>fconfig/debit</param-name>
+				<param-value>debit.xml</param-value>
+		</init-param>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>ActionController</servlet-name>
+		<url-pattern>*.do</url-pattern>
+	</servlet-mapping>
+	
+	
+</web-app>

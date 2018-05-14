@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<app-config>
+	<request-info forward="login.jsp">
+		<path>home</path>
+	</request-info>
+	<request-info>
+		<path>switch</path>
+		<action-class>com.js.action.ModuleSwitching</action-class>
+	</request-info>
+	<request-info forward="switch.do?page=home.do&amp;module=credit">
+		<path>credit</path>
+	</request-info>
+	<request-info forward="switch.do?page=home.do&amp;module=debit">
+		<path>debit</path>
+	</request-info>
+	<request-info forward="">
+		<path>login</path>
+		<bean-class>com.lara.LoginBean</bean-class>
+		<action-class>com.lara.LoginAction</action-class>
+		<validate>true</validate>
+		<!-- <forward name="success">success.jsp</forward> -->
+		<forward name="failure">login.jsp</forward>
+		<!-- for validate error page -->
+		<errorpage>login.jsp</errorpage>
+	</request-info>
+	<file-uplaods>
+		<file-upload>
+			<storefilepath>C:\filepath\</storefilepath>
+			<tmpfilepath>C:\tmp\</tmpfilepath>
+			<maxmemsize>4096</maxmemsize>
+			<maxfilesize>1234454556</maxfilesize>
+		</file-upload>
+	</file-uplaods>
+	<global-forwards>
+		<global-forward name="success">success.jsp</global-forward>
+	</global-forwards>
+</app-config>

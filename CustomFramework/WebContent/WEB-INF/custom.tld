@@ -1,0 +1,8 @@
+<taglib>
+	<jsp-version>2.1</jsp-version>
+	<tlib-version>1.1</tlib-version>
+	<tag>
+		<name>error</name>
+		<tagclass>com.js.CustomTag.JSErrorsTag</tagclass>
+	</tag>
+</taglib>
